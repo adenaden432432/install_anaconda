@@ -1,4 +1,4 @@
-### 1. 安装Anaconda（4版本）、Jupyter notebook
+[### 1. 安装Anaconda（4版本）、Jupyter notebook
 
 #### 第一步
 
@@ -254,3 +254,4 @@ jupyter notebook --notebook-dir "C:\myProjects"
 | **跨平台一致性** | 依赖用户环境，可能需手动处理兼容性    | 强调跨平台一致性（如指定操作系统和架构）         |
 | **适用场景**     | 轻量级 Python 项目、纯 Python 依赖    | 科学计算、数据科学、复杂依赖链项目               |
 
+](https://github.com/adenaden432432/install_anaconda.git)
