@@ -1,4 +1,4 @@
-[### 1. 安装Anaconda（4版本）、Jupyter notebook
+### 1. 安装Anaconda（4版本）、Jupyter notebook
 
 #### 第一步
 
@@ -83,7 +83,7 @@ deactivate py2_7_9 #退出环境
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321093413283.png)
 
-#### 4. 创建一个名字为MyMLenv环境，使用python3.11版本，然后确认当前该环境下是否包括scikit-learn、numpy、pandas、matplotlib包，如果没有，进行这3个包最新版本的安装
+### 4. 创建一个名字为MyMLenv环境，使用python3.11版本，然后确认当前该环境下是否包括scikit-learn、numpy、pandas、matplotlib包，如果没有，进行这3个包最新版本的安装
 
 #### 第一步
 
@@ -127,7 +127,7 @@ conda info --envs #查看环境列表
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321171242405.png)
 
-#### 6. 某个Anaconda虚拟环境下(例如MyMLenv)：如何查看全部已安装的包?查看一共安装了多少个包?查看是否已安装某个包，例如scikit-learn ？
+### 6. 某个Anaconda虚拟环境下(例如MyMLenv)：如何查看全部已安装的包?查看一共安装了多少个包?查看是否已安装某个包，例如scikit-learn ？
 
 ```
 conda list -n MyMLenv
@@ -151,7 +151,7 @@ conda list scikit-learn
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321172412119.png)
 
-#### 7. 删除没用的Anaconda环境（例如MyMLenv_clone等）
+### 7. 删除没用的Anaconda环境（例如MyMLenv_clone等）
 
 ```
 conda env remove --name MyMLenv_clone
@@ -159,7 +159,7 @@ conda env remove --name MyMLenv_clone
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321172546539.png)
 
-#### 8. 创建一个新的Anaconda环境（例如MyMLenvAllinOne等）,成功安装scikit-learn、numpy、pandas、matplotlib、xgboost、lightgbm、pdfplumber、seaborn，然后验证是否已安装成功
+### 8. 创建一个新的Anaconda环境（例如MyMLenvAllinOne等）,成功安装scikit-learn、numpy、pandas、matplotlib、xgboost、lightgbm、pdfplumber、seaborn，然后验证是否已安装成功
 
 ```
 conda create -n MyMLenvAllinOne
@@ -191,7 +191,7 @@ conda install seaborn
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321181254265.png)
 
-#### 9. 在Jupyter notebook下面配置多个python环境，例如，python2.7.9、python3.9.13
+### 9. 在Jupyter notebook下面配置多个python环境，例如，python2.7.9、python3.9.13
 
 ```
 activate py2_7_9
@@ -208,7 +208,7 @@ python -m ipykernel install --user --name py3_9_13 #建立内核
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321183608493.png)
 
-#### 10. Jupyter notebook下面个性化配置本地工程代码目录，例如：c:\myProjects\
+### 10. Jupyter notebook下面个性化配置本地工程代码目录，例如：c:\myProjects\
 
 执行
 
@@ -220,7 +220,7 @@ jupyter notebook --notebook-dir "C:\myProjects"
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321184141352.png)
 
-#### 11. 在一个新的Anaconda环境（例如MyMLenvAllinOne等）下，使用pip方式安装pymysql，使用conda方式安装gensim，请问使用pip安装和conda安装有什么相同点？不同点？
+### 11. 在一个新的Anaconda环境（例如MyMLenvAllinOne等）下，使用pip方式安装pymysql，使用conda方式安装gensim，请问使用pip安装和conda安装有什么相同点？不同点？
 
 ![](https://gitee.com/capmlin/pictures/raw/master/typoro/20250321184715497.png)
 
@@ -254,4 +254,3 @@ jupyter notebook --notebook-dir "C:\myProjects"
 | **跨平台一致性** | 依赖用户环境，可能需手动处理兼容性    | 强调跨平台一致性（如指定操作系统和架构）         |
 | **适用场景**     | 轻量级 Python 项目、纯 Python 依赖    | 科学计算、数据科学、复杂依赖链项目               |
 
-](https://github.com/adenaden432432/install_anaconda.git)
